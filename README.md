@@ -19,8 +19,14 @@ pip install Flask
 
 The aplication can be run locally as seen in the code a local host is used and also the mongo used is a mock.
 
+
+You would need to satisfy the running requirement by running :
+
+pip freeze > requirements.txt
+
 You can run the application by using command line 
 python run app.py 
+
 
 Then navigate to your browser and access at :http://localhost:5000/graphql to view results .
 
