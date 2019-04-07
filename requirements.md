@@ -1,9 +1,0 @@
-#
-#######the neccesaary installations#######
-#
-###### Requirements with Version Specifiers  ######
-
-Flask==0.12.2
-Flask-GraphQL==2.0.0
-graphene-mongo
-mongomock==3.14.0
