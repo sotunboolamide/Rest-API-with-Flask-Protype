@@ -3,7 +3,7 @@ from mongoengine import connect
 
 from models import StudentName,Courses
 
-connect('graphene-mongo-example', host='mongomock://localhost', alias='default')
+connect('graphene-mongo-example', host='mongodb://127.0.0.1:27017', alias='default')
 
 def init_db():
     #Creating the fixtures of the daatabase
